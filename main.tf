@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "image_storage" {
-  bucket = "${var.env}-cbb-bucket"
+  bucket = "dev-cbb-bucket"
 }
 
 resource "aws_s3_bucket_lifecycle_configuration" "l1" {
